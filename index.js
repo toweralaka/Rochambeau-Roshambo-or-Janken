@@ -84,15 +84,3 @@ const showFinalScore = () => {
         computerScore = 0;
     }
 }
-
-const playGame = () => {
-    let totalRounds = 5;
-    for(let i=0; i<totalRounds; i++) {
-        let humanSelection = getHumanChoice();
-        let computerSelection = getComputerChoice();
-        console.info(humanSelection, computerSelection);
-        playRound(humanSelection, computerSelection);
-    }
-}
-
-// playGame();

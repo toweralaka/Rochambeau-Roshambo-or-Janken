@@ -2,13 +2,6 @@ h1 {
     text-align: center;
 }
 
-.hide {
-    height: 0;
-    width: 0;
-    overflow: hidden;
-    visibility: hidden;
-}
-
 .game_div {
     width: 80vw;
     margin: 20px auto;
@@ -31,4 +24,11 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     color: rgb(255, 0, 30);
+}
+
+.score_div {
+    border: 1px solid aqua;
+    margin-top: 30px;
+    padding: 10px;
+    width: 50%;
 }
